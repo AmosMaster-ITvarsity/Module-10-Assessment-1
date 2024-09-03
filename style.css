@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    --darkgreen: #008717;
+    --white: #fff;
+    --black: #000;
+    background: #3d5f6e40;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#main{
+    display: grid;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+h2{
+  text-shadow: 1px 2px gray;
+}
+
+#form{
+
+    border: 1px solid gray;
+    padding: 2.5rem;
+    box-shadow: 5px 4px gray ;
+
+}
+
+#submitForm{
+  padding: 9px 30px;
+  text-transform: uppercase;
+  background-color: green;
+  color: white;
+  box-shadow: 1px 4px black ;
+  border: 0;
+}
+
+#myForm, label{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  border-radius: 12px;
+  border: 0;
+}
+
+.info{
+  margin-top: 80px;
+  display: flex;
+  gap: 5.5rem;
+}
+
+/* ======================= Buttons =============== */
+
+button{
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: var(--white);
+  color: var(--black);
+  box-shadow: 5px 4px gray;
+  font-style: italic;
+}
+
+button:hover{
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid black;
+}
+
+
+
+/* ====================================== MEDIA Quiries ====================== */
+
+@media screen and (min-width: 768px) {
+    #main{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .info{
+        display: flex;
+        justify-content: space-around;
+        gap: 15rem;
+        margin-top: 12px;
+    }
+  }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image/Server.ico">
+    <title>Fetch Data </title>
+</head>
+<body>
+
+    <div id="main">
+
+            <div id="form">
+
+                <h2> Enter your details</h2>
+            
+                    <form id="myForm"> 
+
+                        <label> Name: <br>
+
+                                <input type="text" name="firstname" id="firstname"  placeholder="Firstname" />
+                            
+                        </label>
+                
+                            <br><br>
+                
+                        <label> Last name: <br>
+                    
+                                <input type="text" name="lastname" id="lastname"  placeholder="Lastname"/>
+        
+                        </label>
+                    
+                            <br><br>
+                    
+                        <button id="submitForm">Submit</button>
+        
+                    </form>
+
+                        <p> Message :</p>
+
+                        <p id="greeting"></p>
+           
+            </div>
+
+        
+        
+        <div class="info">
+
+            <div class="messageInfo">
+
+                <button id="getData">Get Info</button>
+
+                <p id="message"></p>
+
+            </div>
+
+            <div class="messageList">
+
+                <button id="getList">Get List</button>
+
+                <p id="posts"></p>
+
+            </div>
+
+        </div>
+    </div>    
+    
+    <script src="fun.js"></script>
+</body>
+</html>
